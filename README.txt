@@ -1,0 +1,3 @@
+This application runs with 3 arguments: the paths to the learning, testing, and result corpus (in that precise order). If any of those are missing or refer to an empty file, the default corpora will be loaded instead. If they refer to a non-text (i.e. binary) file, the application will likely print an error message and shutdown immediately.
+
+This program should be able to be compiled without problems. Or at least, I hope so...
